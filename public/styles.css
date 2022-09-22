@@ -7,6 +7,7 @@
 body {
   height: 100vh;
   padding-block: 2.5em;
+  padding-inline: 1em;
   font-family: 'Inter', sans-serif;
   background: linear-gradient(to bottom left, #0066ff, #006666 100%);
   background-repeat: no-repeat;
@@ -14,6 +15,8 @@ body {
   color: #fff;
   display: flex;
   justify-content: center;
+  margin-bottom: 5em; 
+  border: 2px solid red;
 }
 
 .container {
@@ -22,12 +25,12 @@ body {
   gap: 30px;
   max-width: 40em;
   flex-grow: 1;
+  border: 2px solid yellow;
 }
 
 .banner {
   display: flex;
   justify-content: center;
-  
 }
 
 .banner__name {
